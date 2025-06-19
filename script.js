@@ -17,7 +17,6 @@ $(document).ready(function () {
   );
 
   // image
-
   $(".web-main_s-art.web-main_s-art-banner-image").hover(
     function () {
       $(this).css({
@@ -31,6 +30,14 @@ $(document).ready(function () {
       });
     }
   );
+// heading 
+// heading 
+$(".web-main_s-a-item-name h1").hover(function () {
+  $(this)
+    .css("color", "grey")
+    .fadeOut(1000)
+    .fadeIn(1000);
+});
 
   // ✅ Click alert on Subscribe button
   $("button").click(function () {
