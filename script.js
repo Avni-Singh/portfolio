@@ -1,7 +1,5 @@
-
-      $(document).ready(function () {
-        $('button').click(function () {
-           $(this).hide();
-        });
-      });
-   
+$(document).ready(function () {
+  $("button").click(function () {
+    alert("Thanks for subscribing!");
+  });
+});
